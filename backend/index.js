@@ -48,6 +48,23 @@ app.delete("/cars/:id", (req, res) => {
     })
 })
 
+app.put("/cars/:id", (req, res) => {
+    const carId = req.params.id
+    const q = "update cars set `brand`=?, `color`=?, `year`=? where id = ?"
+
+    const values = [
+        req.body.brand,
+        req.body.color,
+        req.body.year
+    ]
+
+    db.query(q, [...values, carId], (err, data) => {
+        if (err) return res.json(err)
+        
+        return res.json('ok! car has been updated')
+    })
+})
+
 
 // app.get("/", (req, res) => {
 //     res.json('a')
