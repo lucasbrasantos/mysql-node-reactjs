@@ -1,0 +1,502 @@
+[
+    {
+        "brand": "Alfa Romeo",
+        "color": "Purple",
+        "year": 1995
+    },
+    {
+        "brand": "Mazda",
+        "color": "Blue",
+        "year": 2006
+    },
+    {
+        "brand": "BMW",
+        "color": "Aquamarine",
+        "year": 1999
+    },
+    {
+        "brand": "Land Rover",
+        "color": "Orange",
+        "year": 2007
+    },
+    {
+        "brand": "Hyundai",
+        "color": "Pink",
+        "year": 1998
+    },
+    {
+        "brand": "Volvo",
+        "color": "Fuscia",
+        "year": 2012
+    },
+    {
+        "brand": "Nissan",
+        "color": "Red",
+        "year": 1998
+    },
+    {
+        "brand": "Porsche",
+        "color": "Blue",
+        "year": 2008
+    },
+    {
+        "brand": "GMC",
+        "color": "Maroon",
+        "year": 1964
+    },
+    {
+        "brand": "Toyota",
+        "color": "Khaki",
+        "year": 2007
+    },
+    {
+        "brand": "Subaru",
+        "color": "Purple",
+        "year": 1995
+    },
+    {
+        "brand": "Mitsubishi",
+        "color": "Teal",
+        "year": 1992
+    },
+    {
+        "brand": "Volkswagen",
+        "color": "Crimson",
+        "year": 2001
+    },
+    {
+        "brand": "Lexus",
+        "color": "Pink",
+        "year": 1996
+    },
+    {
+        "brand": "Lamborghini",
+        "color": "Khaki",
+        "year": 2000
+    },
+    {
+        "brand": "Tesla",
+        "color": "Khaki",
+        "year": 2007
+    },
+    {
+        "brand": "Chrysler",
+        "color": "Puce",
+        "year": 1984
+    },
+    {
+        "brand": "Lamborghini",
+        "color": "Puce",
+        "year": 2012
+    },
+    {
+        "brand": "Maserati",
+        "color": "Turquoise",
+        "year": 1988
+    },
+    {
+        "brand": "Chrysler",
+        "color": "Crimson",
+        "year": 1999
+    },
+    {
+        "brand": "Ram",
+        "color": "Crimson",
+        "year": 2011
+    },
+    {
+        "brand": "Audi",
+        "color": "Blue",
+        "year": 1994
+    },
+    {
+        "brand": "Lexus",
+        "color": "Turquoise",
+        "year": 2004
+    },
+    {
+        "brand": "GMC",
+        "color": "Purple",
+        "year": 2009
+    },
+    {
+        "brand": "Infiniti",
+        "color": "Aquamarine",
+        "year": 2006
+    },
+    {
+        "brand": "Mazda",
+        "color": "Khaki",
+        "year": 1996
+    },
+    {
+        "brand": "Maserati",
+        "color": "Purple",
+        "year": 2010
+    },
+    {
+        "brand": "Lamborghini",
+        "color": "Turquoise",
+        "year": 1999
+    },
+    {
+        "brand": "Nissan",
+        "color": "Puce",
+        "year": 2001
+    },
+    {
+        "brand": "Honda",
+        "color": "Pink",
+        "year": 2001
+    },
+    {
+        "brand": "Land Rover",
+        "color": "Puce",
+        "year": 1999
+    },
+    {
+        "brand": "Infiniti",
+        "color": "Orange",
+        "year": 1971
+    },
+    {
+        "brand": "Kia",
+        "color": "Goldenrod",
+        "year": 2011
+    },
+    {
+        "brand": "BMW",
+        "color": "Crimson",
+        "year": 2013
+    },
+    {
+        "brand": "GMC",
+        "color": "Mauv",
+        "year": 1995
+    },
+    {
+        "brand": "Mercedes-Benz",
+        "color": "Puce",
+        "year": 2009
+    },
+    {
+        "brand": "Ferrari",
+        "color": "Fuscia",
+        "year": 2010
+    },
+    {
+        "brand": "Nissan",
+        "color": "Green",
+        "year": 1987
+    },
+    {
+        "brand": "Ford",
+        "color": "Orange",
+        "year": 1998
+    },
+    {
+        "brand": "Porsche",
+        "color": "Red",
+        "year": 2009
+    },
+    {
+        "brand": "McLaren",
+        "color": "Maroon",
+        "year": 2004
+    },
+    {
+        "brand": "Lotus",
+        "color": "Aquamarine",
+        "year": 2008
+    },
+    {
+        "brand": "Honda",
+        "color": "Fuscia",
+        "year": 1994
+    },
+    {
+        "brand": "Subaru",
+        "color": "Crimson",
+        "year": 1990
+    },
+    {
+        "brand": "Alfa Romeo",
+        "color": "Red",
+        "year": 2002
+    },
+    {
+        "brand": "Volkswagen",
+        "color": "Turquoise",
+        "year": 2011
+    },
+    {
+        "brand": "BMW",
+        "color": "Violet",
+        "year": 2012
+    },
+    {
+        "brand": "Mazda",
+        "color": "Aquamarine",
+        "year": 2001
+    },
+    {
+        "brand": "Mitsubishi",
+        "color": "Mauv",
+        "year": 1997
+    },
+    {
+        "brand": "Jeep",
+        "color": "Indigo",
+        "year": 2005
+    },
+    {
+        "brand": "Subaru",
+        "color": "Green",
+        "year": 2002
+    },
+    {
+        "brand": "Lotus",
+        "color": "Blue",
+        "year": 2006
+    },
+    {
+        "brand": "Volvo",
+        "color": "Purple",
+        "year": 2008
+    },
+    {
+        "brand": "Lincoln",
+        "color": "Mauv",
+        "year": 2006
+    },
+    {
+        "brand": "Lamborghini",
+        "color": "Puce",
+        "year": 2008
+    },
+    {
+        "brand": "Nissan",
+        "color": "Fuscia",
+        "year": 1996
+    },
+    {
+        "brand": "Lotus",
+        "color": "Aquamarine",
+        "year": 1999
+    },
+    {
+        "brand": "GMC",
+        "color": "Purple",
+        "year": 2000
+    },
+    {
+        "brand": "Lamborghini",
+        "color": "Blue",
+        "year": 2001
+    },
+    {
+        "brand": "Jaguar",
+        "color": "Maroon",
+        "year": 2012
+    },
+    {
+        "brand": "Alfa Romeo",
+        "color": "Turquoise",
+        "year": 2002
+    },
+    {
+        "brand": "Ferrari",
+        "color": "Yellow",
+        "year": 2008
+    },
+    {
+        "brand": "Toyota",
+        "color": "Purple",
+        "year": 2003
+    },
+    {
+        "brand": "GMC",
+        "color": "Green",
+        "year": 2001
+    },
+    {
+        "brand": "Kia",
+        "color": "Mauv",
+        "year": 1974
+    },
+    {
+        "brand": "Honda",
+        "color": "Blue",
+        "year": 1998
+    },
+    {
+        "brand": "Ford",
+        "color": "Aquamarine",
+        "year": 2009
+    },
+    {
+        "brand": "Ford",
+        "color": "Pink",
+        "year": 1995
+    },
+    {
+        "brand": "Tesla",
+        "color": "Khaki",
+        "year": 2012
+    },
+    {
+        "brand": "Ferrari",
+        "color": "Red",
+        "year": 1997
+    },
+    {
+        "brand": "McLaren",
+        "color": "Khaki",
+        "year": 1997
+    },
+    {
+        "brand": "Cadillac",
+        "color": "Mauv",
+        "year": 2008
+    },
+    {
+        "brand": "Toyota",
+        "color": "Crimson",
+        "year": 2001
+    },
+    {
+        "brand": "Lotus",
+        "color": "Red",
+        "year": 2007
+    },
+    {
+        "brand": "Chevrolet",
+        "color": "Mauv",
+        "year": 2007
+    },
+    {
+        "brand": "Chevrolet",
+        "color": "Purple",
+        "year": 2008
+    },
+    {
+        "brand": "Mitsubishi",
+        "color": "Puce",
+        "year": 2010
+    },
+    {
+        "brand": "Subaru",
+        "color": "Maroon",
+        "year": 2008
+    },
+    {
+        "brand": "Audi",
+        "color": "Maroon",
+        "year": 2002
+    },
+    {
+        "brand": "Mercedes-Benz",
+        "color": "Teal",
+        "year": 2006
+    },
+    {
+        "brand": "Alfa Romeo",
+        "color": "Maroon",
+        "year": 2012
+    },
+    {
+        "brand": "Toyota",
+        "color": "Crimson",
+        "year": 2000
+    },
+    {
+        "brand": "Bugatti",
+        "color": "Goldenrod",
+        "year": 2008
+    },
+    {
+        "brand": "Lotus",
+        "color": "Puce",
+        "year": 2009
+    },
+    {
+        "brand": "Bentley",
+        "color": "Blue",
+        "year": 2009
+    },
+    {
+        "brand": "Buick",
+        "color": "Crimson",
+        "year": 1987
+    },
+    {
+        "brand": "Lincoln",
+        "color": "Crimson",
+        "year": 1964
+    },
+    {
+        "brand": "Audi",
+        "color": "Khaki",
+        "year": 1993
+    },
+    {
+        "brand": "Porsche",
+        "color": "Teal",
+        "year": 2008
+    },
+    {
+        "brand": "Honda",
+        "color": "Blue",
+        "year": 2009
+    },
+    {
+        "brand": "Alfa Romeo",
+        "color": "Red",
+        "year": 1991
+    },
+    {
+        "brand": "Mercedes-Benz",
+        "color": "Green",
+        "year": 2009
+    },
+    {
+        "brand": "Mitsubishi",
+        "color": "Orange",
+        "year": 2005
+    },
+    {
+        "brand": "Bentley",
+        "color": "Turquoise",
+        "year": 2004
+    },
+    {
+        "brand": "GMC",
+        "color": "Mauv",
+        "year": 1992
+    },
+    {
+        "brand": "Chrysler",
+        "color": "Aquamarine",
+        "year": 1995
+    },
+    {
+        "brand": "Ram",
+        "color": "Mauv",
+        "year": 1992
+    },
+    {
+        "brand": "Alfa Romeo",
+        "color": "Purple",
+        "year": 2009
+    },
+    {
+        "brand": "Alfa Romeo",
+        "color": "Puce",
+        "year": 2008
+    },
+    {
+        "brand": "Dodge",
+        "color": "Pink",
+        "year": 2011
+    }
+]

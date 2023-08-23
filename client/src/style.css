@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');  
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sonsie One', cursive;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 0 50px;
+    user-select: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: bisque;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px dashed lightgreen;
+    transition: .2s;
+    box-shadow: 0 0 10px rgba(14, 209, 102, 0.5);
+}
+
+.navbar a:hover{
+    border: 1px solid darkslategrey;
+    box-shadow: 0 0 10px rgba(51, 99, 233, 0.7);
+}
+
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background: #070504;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: normal;
+    color: gainsboro;
+}
+
+.title{
+    margin-top: 60px;
+    height: 100%;
+    position: relative;
+}
+
+.title::before{
+    content: '';
+    width: 50rem;
+    height: 1px;
+    background: gainsboro;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.cars{
+    margin: 50px 0;
+    width: 60%;
+    display: grid;
+    gap: 20px 0;
+}
+
+.car{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 5%);
+}
+
+.buttons{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 0 40px;
+    height: 100%;
+    width: auto;
+    user-select: none;
+}
+
+.buttons button{
+    padding: 8px 12px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    transition: .2s;
+}
+
+.buttons button[name='update']{
+    background-color: greenyellow;
+}
+.buttons button[name='delete']{
+    background-color: tomato;
+}
+
+.buttons button:hover{
+    transform: translateY(-2px);
+}
+
+/* add */
+
+.addForm{
+    width: 30%;
+    margin: 50px 0;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 5%);
+    display: grid;
+    place-items: center;
+    gap: 20px 0;
+}
+
+.addForm > div{
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 10px 18px;
+}
+
+label{
+    margin-left: 10px;
+}
+
+.formButton{
+    padding: 8px 14px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: lightsteelblue;
+    user-select: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.formButton[name='random']{
+    background-color: darkorange;
+}
+
+.formButton:hover{
+    transform: translateY(-2px);
+}
+
+.formButton:active{
+    transition: none;
+    transform: translateY(0px);
+}
