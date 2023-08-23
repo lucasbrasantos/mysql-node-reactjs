@@ -8,7 +8,7 @@ const Navbar = () => {
 
 			<a href="/">carros</a>
 			<a href="/add">add</a>
-			<a href="/update">update</a>
+			<a  className='isDisabled'>update</a>
 
 		</div>	
 	)

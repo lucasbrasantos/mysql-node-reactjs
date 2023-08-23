@@ -145,7 +145,7 @@ label{
     background-color: lightsteelblue;
     user-select: none;
     cursor: pointer;
-    transition: .2s;
+    transition: .2s;    
 }
 
 .formButton[name='random']{
@@ -159,4 +159,25 @@ label{
 .formButton:active{
     transition: none;
     transform: translateY(0px);
+}
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;    
+    box-shadow: 0 0 10px rgba(233, 51, 75, 0.7) !important;
+    border: 1px dashed rgb(255, 60, 0) !important;
+}
+
+
+.info{
+    position: relative;
+}
+.info .carid{
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 50%;
 }

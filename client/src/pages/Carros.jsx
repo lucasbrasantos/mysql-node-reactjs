@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../components/navbar'
 import axios from 'axios'
 import '../style.css'
+import { useNavigate } from 'react-router-dom'
 
 const Carros = () => {
 
 	const [carros, setCarros] = useState([]);
+	const navigate = useNavigate();
 
 	useEffect(()=> {
 		
@@ -13,7 +15,6 @@ const Carros = () => {
 			try {
 				const res = await axios.get('http://localhost:8800/cars')
 				setCarros(res.data)
-				console.log(carros);
 			} catch (err) {
 				console.log(err);
 			}
@@ -34,7 +35,7 @@ const Carros = () => {
 		}
 	}
 
-	console.log(carros);
+
   	return (
 		<div className="container">
 			
@@ -47,13 +48,14 @@ const Carros = () => {
 					carros.map((car) => (
 						<div className="car" key={car.id}>
 							<div className="info">
+								<span className='carid'>{car.id}</span>
 								<h3>marca: <span style={{color:'gold'}}>{car.brand}</span></h3>
 								<h3>cor: <span style={{color:'red'}}>{car.color}</span></h3>
 								<h3>ano: <span style={{color:'green'}}>{car.year}</span></h3>
 							</div>
 							<div className="buttons">
 								<button name='delete' onClick={() => handleDelete(car.id)}>deletar</button>
-								<button name='update'>update</button>
+								<button name='update' onClick={() => navigate(`/update/${car.id}`)} >update</button>
 							</div>
 						</div>
 					))

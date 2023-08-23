@@ -16,8 +16,8 @@ function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route index element={ <Carros/> } />
-				<Route path="add" element={ <Add/> } />
-				<Route path="update" element={ <Update/> } />
+				<Route path="/add" element={ <Add/> } />
+				<Route path="/update/:id" element={ <Update/> } />
 			</Routes>
 		</BrowserRouter>
 	)
