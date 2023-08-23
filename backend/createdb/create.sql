@@ -8,3 +8,6 @@ create table cars (
 	color VARCHAR(50),
 	year INT,
 );
+
+
+-- ALTER TABLE cars AUTO_INCREMENT = 1;
