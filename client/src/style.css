@@ -8,6 +8,8 @@
     font-family: 'Sonsie One', cursive;
 }
 
+
+
 .navbar{
     display: flex;
     align-items: center;
@@ -23,6 +25,7 @@
     color: bisque;
     padding: 10px;
     border-radius: 25px;
+    outline: none;
     border: 1px dashed lightgreen;
     transition: .2s;
     box-shadow: 0 0 10px rgba(14, 209, 102, 0.5);
@@ -36,13 +39,27 @@
 .container{
     min-height: 100vh;
     width: 100vw;
-    max-width: 100%;
-    background: #070504;
+    max-width: 100%;    
     display: flex;
+    /* background: #070504; */
     flex-direction: column;
     align-items: center;
     justify-content: normal;
     color: gainsboro;
+}
+
+body{
+    background-image: url('../src/resources/bg3.avif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+}
+.container{
+    background: rgba(7, 5, 4, 90%);
+    background: linear-gradient(to top, rgba(7, 5, 4, 90%)50%, rgba(16, 16, 29, 0.6));
+    backdrop-filter: blur(12px) contrast(200%);
+    background-attachment: fixed;
+    
 }
 
 .title{
